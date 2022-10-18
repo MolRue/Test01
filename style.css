@@ -1,0 +1,97 @@
+@charset  "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    text-align: center;
+}
+
+#board_body {
+    display: inline-block;
+}
+
+/* index.html */
+
+table, th, td {
+    border: 1px  #000;
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+
+table {
+    width : 100%;
+    border-collapse : collapse;
+    border : 1px #000;
+
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:hover {
+    text-decoration: underline;
+}
+
+
+/* botton */
+
+.bt_wrap {
+    background: gray;
+    border: none;
+    color: #000;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 15px;   
+}
+
+.bt_wrap {
+    position: relative;
+    left: 50px;
+    bottom: 8px;
+    /* right: 16px; */
+}
+
+.bt_wrap:hover {
+    transition-duration: 0.3s;  
+    background-color: bisque;
+    color: black;
+}
+
+.pageing {
+    display: inline-block;
+}
+
+.pageing a {
+    color: black;
+    float: left;
+    padding: 8px 16ox;
+    text-decoration: none;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+
+.pageing a.active {
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.pageing a:hover:not(.active) {
+    background-color: gray;
+}
+
+@media (max-midth: 767px) {
+    
+}
