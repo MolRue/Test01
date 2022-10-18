@@ -24,7 +24,6 @@ table, th, td {
     border-left-style: none;
 }
 
-
 table {
     width : 100%;
     border-collapse : collapse;
@@ -36,10 +35,9 @@ th, td {
     padding: 10px;
 }
 
-tr:hover {
+.board_body tr:hover {
     text-decoration: underline;
 }
-
 
 /* botton */
 
@@ -92,6 +90,7 @@ tr:hover {
     background-color: gray;
 }
 
-@media (max-midth: 767px) {
-    
+@media screen and (max-midth: 767px) {
+    .wrap { width : 100% ;}
+    .wrap , .num ~ .user ~ .date  { display: none; }
 }
