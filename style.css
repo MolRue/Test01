@@ -92,5 +92,5 @@ th, td {
 
 @media screen and (max-midth: 767px) {
     .wrap { width : 100% ;}
-    .wrap , .num ~ .user ~ .date  { display: none; }
+    .wrap , .num .user .day  { display: none; }
 }
